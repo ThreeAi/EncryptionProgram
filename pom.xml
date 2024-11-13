@@ -76,7 +76,6 @@
                             <mainClass>edu.program.encryptionprogram.EncryptionApplication</mainClass>
                             <bundleJre>true</bundleJre>
                             <jrePath>C:\Program Files\Java\jre-1.8</jrePath>
-                            <createZipball>true</createZipball>
                             <platform>windows</platform>
                         </configuration>
                     </execution>
