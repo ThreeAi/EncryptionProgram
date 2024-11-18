@@ -44,7 +44,7 @@
                         <Insets />
                       </opaqueInsets>
                     </HBox>
-                    <TextArea fx:id="encode_key_textarea" prefHeight="93.0" prefWidth="880.0">
+                    <TextArea fx:id="encode_key_textarea" prefHeight="93.0" prefWidth="880.0" wrapText="true">
                       <VBox.margin>
                         <Insets bottom="10.0" left="10.0" right="10.0" />
                       </VBox.margin>
@@ -78,7 +78,7 @@
                         <Insets left="10.0" />
                       </VBox.margin>
                     </Label>
-                    <TextArea fx:id="encode_input_textarea">
+                    <TextArea fx:id="encode_input_textarea" wrapText="true">
                       <VBox.margin>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                       </VBox.margin>
@@ -93,7 +93,7 @@
                         <Insets left="10.0" />
                       </VBox.margin>
                     </Label>
-                    <TextArea fx:id="encode_output_textarea" VBox.vgrow="ALWAYS">
+                    <TextArea fx:id="encode_output_textarea" VBox.vgrow="ALWAYS" wrapText="true">
                       <VBox.margin>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                       </VBox.margin>
@@ -133,7 +133,7 @@
                         <Insets />
                       </opaqueInsets>
                     </HBox>
-                    <TextArea fx:id="decode_key_textarea">
+                    <TextArea fx:id="decode_key_textarea" wrapText="true">
                       <VBox.margin>
                         <Insets bottom="10.0" left="10.0" right="10.0" />
                       </VBox.margin>
@@ -167,7 +167,7 @@
                         <Insets left="10.0" />
                       </VBox.margin>
                     </Label>
-                    <TextArea fx:id="decode_input_textarea">
+                    <TextArea fx:id="decode_input_textarea" wrapText="true">
                       <VBox.margin>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                       </VBox.margin>
@@ -182,7 +182,7 @@
                         <Insets left="10.0" />
                       </VBox.margin>
                     </Label>
-                    <TextArea fx:id="decode_output_textarea" VBox.vgrow="ALWAYS">
+                    <TextArea fx:id="decode_output_textarea" VBox.vgrow="ALWAYS" wrapText="true">
                       <VBox.margin>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                       </VBox.margin>
